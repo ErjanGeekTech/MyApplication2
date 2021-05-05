@@ -31,10 +31,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         notifyDataSetChanged();
     }
 
-    public void deleteTask(TaskModel model, int position){
-        list.remove(model);
-        notifyItemRemoved(position);
-    }
 
     @NonNull
     @Override
