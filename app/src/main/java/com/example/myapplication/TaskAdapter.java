@@ -48,12 +48,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         holder.txtTitle.setText(list.get(position).getTitle());
         holder.txtDescription.setText(list.get(position).getDescription());
         holder.txtDate.setText(list.get(position).getDate());
-//        holder.btnDelete.setOnClickListener(v -> deleteTask(list.get(position), position));
-//        holder.btnAbout.setOnClickListener(v -> {
-//            FragmentTransaction transaction = activity.getSupportFragmentManager().beginTransaction();
-//            transaction.replace(R.id.container_main, SecondFragment.newInstance(list.get(position).getTitle(), list.get(position).getDescription()));
-//            transaction.commit();
-//        });
     }
 
     @Override
