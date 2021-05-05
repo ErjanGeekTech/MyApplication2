@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AddtTaskActivity.class);
-
-                Log.e("FFFF", "btnOpenAddTask " );
                 startActivityForResult(intent, 100);
             }
         });
