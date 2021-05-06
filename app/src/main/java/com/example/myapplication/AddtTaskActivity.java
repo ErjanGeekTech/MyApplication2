@@ -37,7 +37,6 @@ public class AddtTaskActivity extends AppCompatActivity {
                     intent.putExtra("description", description);
                     intent.putExtra("date", date);
                     setResult(RESULT_OK, intent);
-                    Log.e("FFFF", "btnAddTask " );
                     finish();
                 }
             }
